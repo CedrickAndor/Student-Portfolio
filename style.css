@@ -11,6 +11,20 @@ body {
     padding-top: 56px; 
 }
 
+section {
+    position: relative;
+}
+
+section:before {
+    content: "";
+    display: block;
+    height: 80px; 
+    margin-top: -80px; 
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
 .navbar-brand {
     font-weight: bold;
 }
